@@ -1,5 +1,6 @@
+/*Plantilla*/
 .left{
-height: 100%;
+height: 1000px;
 width: 5%;
 background-color: white;
 left: 0px;
@@ -9,7 +10,7 @@ position: absolute;
 }
 
 .right{
-height: 100%;
+height: 1000px;
 width: 5%;
 background-color: white;
 right: 0px;
@@ -28,3 +29,79 @@ position: relative;
 body{
     background-color: #C8C0C0;
 }
+/*Fin de plantilla*/
+
+/*menu*/
+.header{
+    widht: 100%;
+    height: 100px;
+    background-color: #83B614;
+    top: 0px;
+    right: 5%;
+    left: 0px;
+}
+nav {
+    top: 0px;
+	margin-bottom: 27px;
+    margin-top: 5px;
+    margin-left: 11%;
+	position: relative;
+	width: 600px;
+	height: 50px;
+	background-color: #83B614;
+	border-radius: 8px;
+	font-size: 0;
+}
+nav a {
+	width: 100%;
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+a:nth-child(1) {
+	width: 200px;
+}
+a:nth-child(2) {
+	width: 80px;
+}
+a:nth-child(3) {
+	width: 200px;
+}
+a:nth-child(4) {
+	width: 120px;
+}
+/*.Menu {
+    padding: 0;
+    }
+
+.Menu li {
+        display: inline;
+        }
+
+.Menu li a {
+    
+    font-family: Arial;
+    font-size: 11px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: #83B614;
+    color: #fff;
+    left: 0px;
+    width:33%;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    }
+*/
+/*Fin del menu*/
