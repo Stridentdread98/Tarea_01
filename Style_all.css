@@ -1,11 +1,30 @@
 .left{
 height: 100%;
-width: 15%;
+width: 5%;
 background-color: white;
+left: 0px;
+top: 0px;
+position: absolute;
+
 }
 
 .right{
-    height: 100%;
-    width: 15%;
-    background-color: white;
+height: 100%;
+width: 5%;
+background-color: white;
+right: 0px;
+top: 0px;
+position: absolute;
+}
+.other{
+height: 100%;
+width: 90%;
+top: 0px;
+right: 5%;
+left: 5%;
+position: relative;
+}
+
+body{
+    background-color: #C8C0C0;
 }
